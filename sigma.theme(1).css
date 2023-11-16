@@ -1,0 +1,51 @@
+/**
+ * @name Sigma
+ * @author DevilBro
+ * @version 1.0.5
+ * @description Allows you to use a background image without greatly altering the basic look of Discord.
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
+ * @authorId 278543574059057154
+ * @BDEditor BasicBackground
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@100;300;400;500;700&display=swap');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+
+:root {
+  --background: url('https://i.imgur.com/byBGIv0.jpg');
+  --backgroundsize: cover;
+  --backgroundposition: center left;
+  --backgroundblur: 0px;
+  --popout: url('https://i.imgur.com/Sd16Ugl.jpg');
+  --popoutsize: 400px;
+  --backgroundposition: center left;
+  --popoutblur: 0px;
+  --transparencycolor: 50,14,69;
+  --accentcolor: 163,111,158;
+  --backdrop: rgba(0,0,0,0.85);
+  --textshadow: transparent;
+  --transparencyalpha: 0.26;
+  --messagetransparency: 0.46;
+  --guildchanneltransparency: 0.46;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0.46;
+  --font: Times New Roman;
+  --textbrightest: 190,60,249;
+  --textbrighter: 235,173,243;
+  --textbright: 179,117,207;
+  --textdark: 179,117,207;
+  --textdarker: 103,52,137;
+  --textdarkest: 80,43,101;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+}
+
+/* Any custom CSS below here */
+
+
